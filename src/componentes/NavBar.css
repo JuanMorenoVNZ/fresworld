@@ -1,0 +1,18 @@
+.bg-myRed{
+    background-color: crimson;
+}
+
+
+
+.navbar-brand{
+    margin-left: 10px;
+}
+
+.content{
+    padding: 12px;
+    height: 3000px;
+  }
+  
+  .coloring{
+    color: rgb(253, 250, 250);
+  }

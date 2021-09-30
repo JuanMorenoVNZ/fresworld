@@ -1,0 +1,29 @@
+.bg-myRed{
+    background-color: black;
+}
+
+
+
+.navbar-brand{
+    margin-left: 10px;
+}
+
+.content{
+    padding: 12px;
+    height: 3000px;
+  }
+  
+  .coloring{
+    color: rgb(253, 250, 250);
+  }
+
+  .Car {
+    width: 60px;
+    height: 30px;
+  }
+  .titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+  }

@@ -1,28 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
-import NavBar from './componentes/NavBar';
+import NavBar from './componentes/NavBar/NavBar';
+import SeccionCentral from './componentes/NavBar/ItemListContainer/ItemListContainer';
+import CartWidget from './componentes/NavBar/CartWidget/CartWidget';
+import carritoo from './componentes/NavBar/Imagenes/carritoo.png'
 
 function App() {
   const jsx = <h1>Fresh World</h1>
   return (
     <div>
        <NavBar/>
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          {jsx}
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <SeccionCentral/>
     </div>
+    <div>
+              
+              </div>
     </div>
   );
 }

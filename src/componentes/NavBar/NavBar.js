@@ -3,8 +3,8 @@ import './NavBar.css'
 import 'bootstrap/dist/css/bootstrap.css';
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse';
-import CartWidget from './CartWidget/CartWidget';
-import fresh from './Imagenes/fresh.jpg'
+import CartWidget from '../CartWidget/CartWidget';
+import fresh from '../Imagenes/fresh.jpg'
 
 
 

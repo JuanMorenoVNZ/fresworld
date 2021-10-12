@@ -1,5 +1,8 @@
 import React from 'react';
-import '../NavBar.css'
+import '../NavBar/NavBar.css'
+import 'bootstrap/dist/css/bootstrap.css';
+import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse';
 
 const SeccionCentral = () => {
 
